@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.9'
+gem 'rails', '4.2.0'
 
 # Database
 # If broken on OSX, run:
@@ -10,7 +10,7 @@ gem 'rails', '4.1.9'
 gem 'pg', '~> 0.17.1'
 
 # Templating engine
-gem 'slim-rails', '~>2.1.0'
+gem 'slim-rails', '~>3.0.1'
 
 # Web server
 gem 'puma', '~> 2.9.1'
@@ -25,10 +25,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '~>3.1.2'
 
-# Use Bourbon for Sass mixins
-gem 'bourbon'
+# Use compass for includes
+gem 'compass-rails', '~>2.0.0'
 
 # Use Neat for the CSS grid system
 gem 'neat', '~> 1.5.1'
