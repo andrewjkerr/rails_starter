@@ -4,8 +4,8 @@ Inspired by [connorjacobsen/rails_starter](https://github.com/connorjacobsen/rai
 
 ##Current Defaults
 
-- Ruby 2.1.5
-- Rails 4.1.9
+- Ruby 2.2.1
+- Rails 4.2.1
 - Slim for templates
 - Sass for stylesheets
 - Coffeescript for javascript-y type things
