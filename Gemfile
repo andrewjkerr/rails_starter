@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.1'
 
 # Database
 # If broken on OSX, run:
-# gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config
+# gem install pg -v 0.17.1 -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config
 gem 'pg', '~> 0.17.1'
 
 # Templating engine
