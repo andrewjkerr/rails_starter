@@ -53,6 +53,12 @@ group :development, :test do
 
   # Use faker for generating test data
   gem 'faker', '~> 1.3.0'
+
+  # We like pry and friends :)
+  gem 'pry', '~> 0.10.1'
+  gem 'coderay' ,'~> 1.1.0'
+  gem 'awesome_print', '~> 1.6.1'
+  gem 'pry-rails', '~> 0.3.4'
 end
 
 group :production do
