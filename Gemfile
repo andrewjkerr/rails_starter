@@ -7,7 +7,7 @@ gem 'rails', '4.2.1'
 # Database
 # If broken on OSX, run:
 # gem install pg -v 0.17.1 -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.3/bin/pg_config
-gem 'pg', '~> 0.17.1'
+gem 'pg', '~> 0.18.1'
 
 # Templating engine
 gem 'slim-rails', '~>3.0.1'
