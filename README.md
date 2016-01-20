@@ -1,8 +1,8 @@
-#RailsStarter
+# RailsStarter
 
 Inspired by [connorjacobsen/rails_starter](https://github.com/connorjacobsen/rails_starter), this is my starting Rails template.
 
-##Current Defaults
+## Current Defaults
 
 - Ruby 2.3.0
 - Rails Edge
@@ -12,12 +12,19 @@ Inspired by [connorjacobsen/rails_starter](https://github.com/connorjacobsen/rai
 - Puma for the server
 - Postgres 9.4 for DB
 
-##Dependencies
+## Dependencies
 
 - Ruby
 - Some JavaScript runtime
 
-##Configuration
+## Recommended Dependencies
+
+Two gems that I absolutely love that are not supposed to be included in the Gemfile are:
+
+1. mailcatcher
+2. foreman
+
+## Configuration
 
 1. Clone this repo:
 
