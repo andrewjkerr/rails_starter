@@ -4,13 +4,13 @@ Inspired by [connorjacobsen/rails_starter](https://github.com/connorjacobsen/rai
 
 ##Current Defaults
 
-- Ruby 2.2.2
-- Rails 4.2.3
+- Ruby 2.3.0
+- Rails Edge
 - Slim for templates
 - Sass for stylesheets
 - Coffeescript for javascript-y type things
 - Puma for the server
-- Postgres 9.3.5.1 for DB
+- Postgres 9.4 for DB
 
 ##Dependencies
 
@@ -34,3 +34,7 @@ git clone https://github.com/andrewjkerr/rails_starter.git
 5. Change the db settings in `config/database.yml` if necessary.
 
 6. Run `rails s`!
+
+## Production Notice
+
+Since this is running Rails Edge and non of the gems in the Gemfile are actually versioned, I would avoid running this certain configuration in production :smile:
