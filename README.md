@@ -1,3 +1,5 @@
+**Note: this is no longer maintained! Please don't use this.**
+
 # RailsStarter
 
 Inspired by [connorjacobsen/rails_starter](https://github.com/connorjacobsen/rails_starter), this is my starting Rails template.
